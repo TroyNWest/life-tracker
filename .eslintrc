@@ -6,5 +6,7 @@
     "import/no-unresolved": "off",
     "jsx-a11y/anchor-is-valid": "off",
     "import/no-extraneous-dependencies": "off",
+    "arrow-body-style": ["off", "as-needed"],
+    "no-unused-vars": "off"
   }
 }

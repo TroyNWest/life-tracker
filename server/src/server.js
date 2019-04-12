@@ -2,7 +2,7 @@ import express from 'express';
 import expressGraphQL from 'express-graphql';
 import { SERVER_PORT } from './config/server';
 import './database';
-import schema from './rootSchema';
+import schema from './graphql/rootSchema';
 
 const app = express();
 

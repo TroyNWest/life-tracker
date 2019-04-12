@@ -4606,10 +4606,6 @@ pako@~1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
 
-paradux@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/paradux/-/paradux-1.2.1.tgz#1009bdccd30a6d455c701574a38aa3139a0fa7c7"
-
 param-case@2.1.x:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/param-case/-/param-case-2.1.1.tgz#df94fd8cf6531ecf75e6bef9a0858fbc72be2247"

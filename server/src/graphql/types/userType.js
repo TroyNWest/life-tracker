@@ -1,6 +1,9 @@
 import { GraphQLObjectType, GraphQLString } from 'graphql';
+import mongoose from 'mongoose';
 
-const UserType = new GraphQLObjectType({
+const User = mongoose.model('user');
+
+export const UserType = new GraphQLObjectType({
   name: 'User',
   fields: {
     id: { type: GraphQLString },
@@ -13,4 +16,13 @@ const UserType = new GraphQLObjectType({
   },
 });
 
-export default UserType;
+export const userQuery = {
+  user: {
+    type: UserType,
+    args: { id: { type: GraphQLString } },
+    resolve(parentValue, { id }) {
+      return User.findById(id);
+    },
+  },
+};
+

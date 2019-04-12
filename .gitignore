@@ -24,3 +24,4 @@ yarn-error.log*
 
 /.idea
 !/server/src/server.js
+/server/data
